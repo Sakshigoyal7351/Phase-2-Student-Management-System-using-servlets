@@ -49,7 +49,7 @@ public class ShowAll extends HttpServlet {
 			List<Student> sall = so.showAll(); 
 			
 			
-			out.print("<a href='AddnewStudent.html'style='color:red;'>New Student</a>");
+			out.print("<a href='AddnewStudent.html' style='color:red;'>New Student</a> &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp<a href ='showAll'>View All Students </a>&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; <a href='Login.html'>Logout</a>");
 			
 			out.print("<br>");
 			out.print("<hr>");
